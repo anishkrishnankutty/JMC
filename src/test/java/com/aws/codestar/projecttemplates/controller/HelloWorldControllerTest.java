@@ -29,6 +29,7 @@ public class HelloWorldControllerTest {
         // Use as needed.
     }
 
+    
     /**
      * De-initializing variables after we run the tests.
      * Use @AfterAll for de-initializing static variables at the end of the test class execution.
@@ -50,5 +51,6 @@ public class HelloWorldControllerTest {
         // Verify the result obtained matches the values we expect.
         assertEquals(EXPECTED_VIEW_NAME, actualModelAndView.getViewName());
         assertEquals(EXPECTED_SITE_NAME, String.valueOf(actualModelAndView.getModel().get("siteName")));
+        System.out.print("anish test commit");
     }
 }
