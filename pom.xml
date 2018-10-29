@@ -80,7 +80,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>ROOT</warName>
+                        <warName>JMC</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
